@@ -12,7 +12,8 @@ java {
 }
 
 repositories {
-	mavenCentral()
+	//mavenCentral()
+	maven { url "http://192.168.70.156:32306/repository/maven-central/"}
 }
 
 dependencies {
