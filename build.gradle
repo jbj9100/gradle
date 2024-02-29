@@ -32,7 +32,7 @@ jar {
 	}
 }
 
+
 bootRun {
-	String activeProfile = System.properties['spring.profiles.active']
-	systemProperty "spring.profiles.active", activeProfile
+	args = ["--spring.profiles.active=prod"]
 }
